@@ -1,0 +1,32 @@
+header {
+    background-image: url("images/banner.jpg") !important;
+    background-size: cover;
+    /* Cubrir todo el header */
+    background-position: center;
+    /* Centrar la imagen */
+    background-repeat: no-repeat;
+    /* No repetir la imagen */
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    /* Añadir espacio dentro del header */
+    min-height: 300px;
+}
+
+header h1 {
+    background-color: rgba(0, 229, 255, 0.811);
+    /* Fondo semitransparente para el texto */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#menu button{
+    color: white !important;
+}
+
+#menu button:hover{
+    background-color: white !important;
+    border-color: aqua;
+    color: aqua !important;
+}

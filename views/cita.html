@@ -1,0 +1,38 @@
+<!-- Agendar Cita Section -->
+<section id="cita" class="container my-5">
+    <h2 class="text-center mb-4">Agendar una Cita</h2>
+    <form class="row g-3" action="" method="">
+        <div class="col-md-6">
+            <label for="name" class="form-label">Nombre Completo</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="col-md-6">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="col-md-6">
+            <label for="phone" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="phone" name="phone" required>
+        </div>
+        <div class="col-md-6">
+            <label for="service" class="form-label">Servicio</label>
+            <select id="service" class="form-select" name="service" required>
+                <option selected disabled value="">Selecciona un servicio...</option>
+                <option value="limpieza">Limpieza Dental</option>
+                <option value="blanqueamiento">Blanqueamiento Dental</option>
+                <option value="extraccion">Extracción de Muela</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="date" class="form-label">Fecha Preferida</label>
+            <input type="date" class="form-control" id="date" name="date" required>
+        </div>
+        <div class="col-md-12">
+            <label for="message" class="form-label">Comentarios Adicionales</label>
+            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-success w-100">Enviar Cita</button>
+        </div>
+    </form>
+</section>
