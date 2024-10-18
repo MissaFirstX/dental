@@ -21,6 +21,19 @@ header h1 {
     border-radius: 5px;
 }
 
+#logo {
+    max-width: 600px; /* Tamaño máximo del logo en pantallas más grandes */
+    width: 20%; /* Tamaño relativo en pantallas más grandes */
+    height: auto; /* Mantiene la proporción original */
+}
+
+@media (max-width: 768px) {
+    #logo {
+        max-width: 600px; /* Tamaño máximo en dispositivos móviles */
+        width: 60%; /* Ajuste de ancho relativo */
+    }
+}
+
 #menu button{
     color: white !important;
 }
@@ -29,4 +42,16 @@ header h1 {
     background-color: white !important;
     border-color: aqua;
     color: aqua !important;
+}
+
+#precios .card-body:hover{
+    box-shadow: -1px -1px 34px -9px rgba(22,255,213,0.75);
+}
+
+#promociones .card-body:hover{
+    box-shadow: -1px -1px 34px -9px rgba(22,255,213,0.75);
+}
+
+#tratamientos .card-body:hover{
+    box-shadow: -1px -1px 34px -9px rgba(22,255,213,0.75);
 }
