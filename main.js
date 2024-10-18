@@ -13,3 +13,7 @@ function loadView(viewUrl) {
             console.error('Error al cargar la vista:', error);
         });
 }
+
+function refreshPage() {
+    location.reload(); // Recarga la página
+}

@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-    background-color: rgba(0, 229, 255, 0.811);
+    background-color: rgba(0, 229, 255, 0.427);
     /* Fondo semitransparente para el texto */
     display: inline-block;
     padding: 10px 20px;
